@@ -1,8 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import MessageBasic from './MessageBasic';
-//import FlashCard from './FlashCard'
-//import DemoContainer from './DemoContainer';
+import { render } from '@testing-library/react'
+import FlashCard from './FlashCard'
+import DemoContainer from './DemoContainer';
+
+
+
 
 function App() {
   return (
@@ -13,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
